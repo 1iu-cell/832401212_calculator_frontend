@@ -232,7 +232,7 @@ onUnmounted(() => {
       </section>
 
       <HistoryPanel
-        v-model="keyword"
+        v-model:keyword="keyword"
         :items="historyItems"
         :total="historyTotal"
         :page="historyPage"
